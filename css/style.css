@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+
+:root {
+    --color-light-50: #f8fafc;
+    --color-dark-100: #797984;
+    --color-dark-900: #000;
+
+    --color-purple-50: #6139a5;
+    --color-purple-100: #159957;
+    --color-purple-200: #155799;
+
+    --color-gradient: linear-gradient(var(--color-purple-50), var(--color-purple-100, var(--color-purple-200)))
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+  background-color: #eaecee;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+
+#main_text h1 {
+  font-size: 70px;
+  color: #3c3e41;
+  text-align: center;
+  margin-top: -200px;
+  margin-right: -110%;
+  
+}
+
+.buttons_container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+}
+
+#social_media {
+  background-color: rgb(30, 29, 29);
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 20px 2px;
+  cursor: pointer;
+  letter-spacing: 3px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+  right: 300px;
+  
+}
+
+#social_media:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease;
+}
+
+#social_media:hover:after {
+  width: 210px;
+  height: 200px;
+  opacity: 1;
+}
+
+#social_media:focus {
+  outline: none;
+}
+
+#social_media:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+ 

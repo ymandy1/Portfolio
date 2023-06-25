@@ -1,0 +1,33 @@
+body {
+    background-color:#eaecee;
+    font-family: 'Popins', sans-serif;
+    font-weight: 500;
+}
+
+
+
+.video {
+    width: 800px;
+    height: 500px;
+    margin-left: 250px;
+    margin-top: 60px;
+
+}
+
+.text_video p {
+    margin-left: 30px;
+    font-size: 50px;
+    margin-top: -550px;
+    text-align: center;
+
+}
+
+.text_video2 h1{
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 500px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+

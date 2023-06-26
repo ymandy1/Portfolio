@@ -221,7 +221,6 @@ header .logo img {
   border-bottom: var(--border);
   padding-bottom: 50px;
   margin-top: 50px;
-  cursor: pointer;
 }
 
 .listProject .item {

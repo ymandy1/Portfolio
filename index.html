@@ -138,33 +138,22 @@
                     </a>
                        </div>
                     </div>
-                </div>
-                <div id="contact">
-                    <div class="title">Contato</div>
-                         <div class="button">
-                            <a href="#" id="button_cv">
-        
-                    <ul class="contact">
-                        <li>
-                            <i class="fa-brands fa-instagram"></i>
-                        </li>
-                        <li>
-                            <i class="fa-brands fa-github"></i>
-                        </li>
-                        <li>
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </li>
-                    </ul>
-
+                    <div class="title">Contato
+                        <h1>Me envie uma mensagem!</h1>
+                    </div>
+                    <form id="contact-form" action="https://formspree.io/f/xdornrlv" method="POST">
+                      <label for="nome">Nome</label>
+                      <input type="text" name="nome" id="nome" required />
+                      <label for="email">Email</label>
+                      <input type="email" name="email" id="email" required />
+                      <label for="mensagem">Mensagem</label>
+                      <textarea name="mensagem" id="mensagem" required></textarea>
+                      <button type="submit">Enviar</button>
+                    </form>
+                    <div id="message-container"></div>
                     <div id="contact">
-                        <a href="..//curriculum/currículo original.pdf" id="button_contact" target="_blank">Baixar currículo</a>
-                        </div>
-                            
-        
-                </div>
-                </div>
-
-            </div>
+                      <a href="..//curriculum/currículo original.pdf" id="button_contact" target="_blank">Baixar currículo</a>
+                    </div>                    
     
             <script src="..//js/teste3.js"></script>
     
